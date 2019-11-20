@@ -1,0 +1,31 @@
+//clase de cartas ..
+//clase de palo .. 
+//clase de mazo (llenar mazo) (mezclar mazo) (cola de cartas)
+//repartir ( 5 cartas por jugador) [vector de cartas]
+jugador (tiene 5 cartas, tirar carta, alzar carta,)
+//mesa (mazo-- carta)
+ciclo (pasar cada jugador, permitiendole tirar carata)
+comparar carta en mesa con carta del jugador. 
+
+-----------
+logica de juego 
+
+--tirar del mismo palo y/o valor de a carta en la mesa
+--alzar carta si la carta en la mesa es 2
+--saltar jugador y la carta en la mesa es 4
+--cambiar palo de la mesa al tirar 10 
+--alzar carta si no tienes palo o numero de carta en mesa
+-- gana quien no tenga mas cartas.
+-- se suman los valores de las cartas de los demas jugadores.
+-- sale del juego el que en el acumulado obtenga 150
+
+
+
+----------
+mostrarle al jugador la carta en la mesa y preguntarle cual quiere tirar de su vector
+if([]=!cartaMesa)
+alzarCarta;
+
+
+si no puede tirar ninguna 
+que levante una carta
